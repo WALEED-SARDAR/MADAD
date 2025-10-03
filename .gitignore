@@ -1,0 +1,32 @@
+# Node / npm
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# env and secrets
+.env
+.env.local
+.env.*.local
+
+# mac / windows
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# log
+*.log
+
+# package-lock
+package-lock.json
+
+# optionally for coverage
+coverage/
